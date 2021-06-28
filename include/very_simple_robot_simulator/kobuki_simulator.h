@@ -13,8 +13,8 @@ class KobukiSimulator
 {
 public:
 
-  KobukiSimulator( float initial_x = 1.0,
-                   float initial_y = 1.0,
+  KobukiSimulator( float initial_x = 0.5,
+                   float initial_y = 0.5,
                    float initial_yaw = 0.0 );
 
   void

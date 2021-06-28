@@ -10,7 +10,7 @@ import numpy as np
 
 class KobukiSimulator( object ):
 
-  def __init__( self, initial_x = 1.0, initial_y = 1.0, initial_yaw = 0.0 ):
+  def __init__( self, initial_x = 0.5, initial_y = 0.5, initial_yaw = 0.0 ):
     rospy.loginfo( 'Initializing Kobuki Simulator' )
     rospy.on_shutdown( self.shutdown )
 
